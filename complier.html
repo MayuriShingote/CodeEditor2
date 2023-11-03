@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Code Compiler</h1>
+    </header>
+    <main>
+        <section class="code-editor">
+            <h2>HTML Editor</h2>
+            <textarea id="html-code" rows="10" cols="50">
+                <h2>Hello, Compiler!</h2>
+                <p>This is an enhanced code compiler.</p>
+            </textarea>
+        </section>
+        <section class="code-editor">
+            <h2>CSS Editor</h2>
+            <textarea id="css-code" rows="10" cols="50">
+                h2 {
+                    color: blue;
+                }
+                p {
+                    font-weight: bold;
+                }
+            </textarea>
+        </section>
+        <section class="code-editor">
+            <h2>JavaScript Editor</h2>
+            <textarea id="js-code" rows="10" cols="50">
+                // JavaScript code
+            </textarea>
+        </section>
+    </main>
+    <section id="result-container">
+        <h2>Result</h2>
+        <iframe id="result"></iframe>
+    </section>
+    <footer>
+        <p>&copy; 2023 Code Compiler</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
